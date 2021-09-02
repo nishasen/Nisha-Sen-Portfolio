@@ -4,119 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>Home | Nisha Sen</title>
     <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-    <h1>Welcome to Nisha Sen's component library.</h1>
-     <p>Hi, I am Nisha Sen and I am attending <strong>neogcamp levelZero</strong> and completing the assignments.</p>
-     <p>I want to make a library which would make all my projects look good and consistent.</p>
-     
-     <hr>
-
-    <h2>@typography</h2>
-
-    <h1>This is the biggest heading</h1>
-    <h2>This is second biggest</h2>
-    <p>This is the normal text. Its free flowing and wrap at the end as normal text.</p>
-    <small>This is relatively smaller text.</small>
-    <hr>
-
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div class="container container-fluid">This is a fluid container.</div>
-
-    <h3>centered container</h3>
-    <div class="container container-center">This is a centered container.</div>
-
-    <hr>
-
-    <h2>@links</h2>
-    <a class="link primary-link" href="/">Primary Link</a>
-    <a class="link secondary-link" href="/">Secondary Link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-    <h3>unordered lists</h3>
-    <p>We don't want to show bullets in the ordered list. We'll remove that with CSS.</p>
-    <ul class="non-bullet">
-        <li>item one</li>
-        <li>item two</li>
-        <li>item three</li>
-    </ul>
-    <h3>unordered inline lists</h3>
-    <p>Instead of row, we will create a list which will take columns.</p>
-    <ul class="non-bullet">
-        <li class="list-inline">itemOne</li>
-        <li class="list-inline">itemTwo</li>
-        <li class="list-inline">itemThree</li>
-    </ul>
-    <h3>reverse ordered list</h3>
-    <p>Counting will go reverse for this list.</p>
-    <ol reversed>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>bread</li>
-    </ol>
-
-    <hr>
-
-    <h3>@nav</h3>
-    <p>Navigation is used on the top of the page and used to get to different pages.</p>
     <nav class="navigation container">
-    <div class="nav-brand">IAmBrand</div>
-    <ul class="non-bullet alignment-nav"> 
-        <li class="list-inline link-active">
-            <a class="link" href="/">Home</a>
-        </li>
-        <li class="list-inline">
-            <a class="link" href="/">Products</a>
-        </li>
-        <li class="list-inline">
-            <a class="link" href="/">About</a>
-        </li>
-    </ul>
-</nav>
-    <hr>
-
-    <h2>@header</h2>
+        <div class="nav-brand">IAmDeveloper</div>
+        <ul class="non-bullet alignment-nav"> 
+            <li class="list-inline link-active">
+                <a class="link" href="/">Home</a>
+            </li>
+            <li class="list-inline">
+                <a class="link" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-inline">
+                <a class="link" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
+    </nav>
 
     <header class="hero">
-        <img class="hero-img" src="images/hero.svg" />
+        <img class="hero-img" src="/images/hero.svg" />
         <h1 class="hero-heading">Nisha Sen the <span class="heading-inverted">Web Developer</span></h1>
     </header>
 
-    <hr>
-
-    <h2>@section</h2>
-    <p>A section is used to separate parts of pages. In marketing websites you would have seen a header followed by sections of features, team, pricing, contact info etc.</p>
-
-    <h3>@normal section</h3>
-    <section class="section">
-        <h2>heading inside section</h2>
-        <p>Text defining this section and many more things</p>
-        <button href="/" class="section-button">Primary Button</button>
-    </section>
-    <h3>@an off white section</h3>
     <section class="section off-white">
-        <h2>inside off white section</h2>
-        <p>Text defining this section and many more things</p>
-        <button href="/" class="section-button">Primary Button</button>
+        <h2>Technologies</h2>
+        <p>I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting.</p>
+        </section>
+
+    <section class="section light-text">
+        <h2>Projects</h2>
+        <p>I like to showcase my work and thus, you can see my projects hosted online.</p>
+        <a href="/" class="section-button">See Projects</a>
     </section>
 
-    <hr>
+    <section class="section off-white">
+        <h2>Blogs</h2>
+        <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
+        <a href="/" class="section-butt">See Blogs</a>
+    </section>
 
-    <h2>@footer</h2>
     <footer class="footer">
-        <div class="footer-heading">Header inside footer</div>
+        <div class="footer-heading">Social media presence</div>
         <ul class="social-links non-bullet">
-            <li class="list-inline"><a class="link" href="/">socialOne</a></li>
-            <li class="list-inline"><a class="link" href="/">socialTwo</a></li>
-            <li class="list-inline"><a class="link" href="/">socialThree</a></li>
+            <li class="list-inline"><a class="link" href="https://www.linkedin.com/in/nisha-sen-13644b191/" target="_blank">Linkedin <img class="icon" src="/images/linkedin.svg"></a></li>
+            <li class="list-inline"><a class="link" href="https://github.com/nishasen" target="_blank">Github <img class="icon" src="/images/Github.svg"></a></li>
+            <li class="list-inline"><a class="link" href="https://www.instagram.com/sen._.nisha/" target="_blank">Instagram <img class="icon" src="/images/Instagram.svg"></a></li>
         </ul>
     </footer>
+
 
 </body>
 </html>

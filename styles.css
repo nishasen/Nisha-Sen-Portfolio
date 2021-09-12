@@ -113,6 +113,46 @@ body {
     color: var(--primary-color);
 }
 
+.skillContainer {
+    background-color: rgb(192, 192, 192);
+    width: 80%;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.skill {
+    background-color: rgb(116, 194, 92);
+    color: white;
+    padding: 0.2rem;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.html {
+    width: 80%;
+}
+
+.css {
+    width: 80%;
+}
+
+.javascript {
+    width: 60%;
+}
+
+.git {
+    width: 50%;
+}
+
+.reactjs {
+    width: 40%;
+}
+
+.webHosting {
+    width: 80%;
+}
+
 .section h2, p, a {
     text-align: center;
     padding-top: 1rem;

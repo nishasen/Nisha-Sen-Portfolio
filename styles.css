@@ -125,7 +125,8 @@ body {
 
 section {
     padding-bottom: 1rem;
-    padding-left: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     text-align: center;
     border-radius: 1rem;
 }
